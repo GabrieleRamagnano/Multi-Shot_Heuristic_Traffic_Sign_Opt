@@ -29,9 +29,9 @@ In the current setting the **Tail** is structured as follow:
 ```
 name,package_test,label,tail,run_tail
 OPT_Aggrel1,theory_delta,OPT_aggrel1,./tail0.sh,./tail2.sh
-OPT_Heurate,heu_volume,OPT_heurate,./heu0.sh,./heu2.sh
-OPT_Heuphase,heu_volume,OPT_heuphase,./heu0.sh,./heu2.sh
-BND_DHphase,heu_volume,BND_dhphase,./heu0.sh,./heu1.sh
+OPT_Heurate,heu_volume,OPT_heurate,./heuv0.sh,./heuv2.sh
+OPT_Heuphase,heu_volume,OPT_heuphase,./heuv0.sh,./heuv2.sh
+BND_DHphase,heu_volume,BND_dhphase,./heuv0.sh,./heuv1.sh
 ```
 1. **name**: it is the name of the experiment. It must match at most one of the tags in `./export_files.txt`.
 2. **package_test**: it is the folder containing your **tail** scripts (less the file used as API interface).
@@ -40,7 +40,7 @@ BND_DHphase,heu_volume,BND_dhphase,./heu0.sh,./heu1.sh
 5. **run_tail**: the code for running the instaces of each task. For TASK_1, set the suffix number to '1' (e.g. `./heu1.sh`), for TASK_2 set it to '2' (e.g. `./heu2.sh`).
 
 
-2. The file `./inst13.sh` represents the **Tail** interface:
+2. The file `./tail_interface.sh` represents the **Tail** interface:
 
 - the function **get_tails** select from the file `./packgs0.csv` the experiment you want to test and
 fills the internal variables
@@ -364,10 +364,10 @@ bye
 
 ```
 Choose the script for testing your code:
-1) aux0.sh           3) info.sh          5) inst12.sh        7) inst14.sh                 9) inst4.sh        11) done
-2) create_file.sh    4) inst11.sh        6) inst13.sh        8) run_experiment.sh        10) inst5.sh
+1) aux0.sh           3) info.sh          5) inst12.sh           7) inst14.sh                 9) inst4.sh        11) done
+2) create_file.sh    4) inst11.sh        6) tail_interface.sh   8) run_experiment.sh        10) inst5.sh
 #? 6
-The file choosen is inst13.sh
+The file choosen is tail_interface.sh
 Continue?[y/n]y
 1) total_run
 2) test_run

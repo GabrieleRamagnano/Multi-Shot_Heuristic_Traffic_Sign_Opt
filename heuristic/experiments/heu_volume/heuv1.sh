@@ -4,7 +4,7 @@
 
 #variable parameters
 declare scenario
-declare to_csv="./inst4.sh"
+declare to_csv="./aggregate_results4.sh"
 
 function set_scenario
 {
