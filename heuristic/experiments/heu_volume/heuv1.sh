@@ -4,7 +4,7 @@
 
 #variable parameters
 declare scenario
-declare to_csv="./aggregate_results4.sh"
+declare to_csv="./read_clingcon_70_results.sh"
 
 function set_scenario
 {

@@ -3,7 +3,7 @@
 #variable parameters
 declare task="../Instancesv2_round"
 declare scenario
-declare to_csv="./aggregate_results15.sh"
+declare to_csv="./read_clingcon_105_results.sh"
 
 function set_scenario
 {

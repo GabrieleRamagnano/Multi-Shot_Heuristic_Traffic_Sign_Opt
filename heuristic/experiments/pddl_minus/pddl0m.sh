@@ -10,7 +10,7 @@ declare -g root
 declare unknown="./unknown.sh"
 declare csv="./build_csv.sh"
 declare group_csv="./aggregate_results.sh"
-declare get_result="./read_results21"
+declare get_result="./read_pddl_results.sh"
 declare utility="./aux0.sh"
 export test_name="heurate"
 export fst_line="Encoding,Horizon,Problem,counter wrac1_y_wrbc1,counter wrbc1_b_wrcc1,counter wrcc1_x_wrdc1,counter wrdc1_b_wrec1,counter wrec1_y_wrfc1,Total"
