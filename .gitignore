@@ -76,4 +76,5 @@ heuristic/experiments/pddl_70/inst6.py
 heuristic/experiments/heu_volume/print0.sh
 heuristic/experiments/heu_volume/print1.sh
 heuristic/experiments/heu_volume/print2.sh
-./heuristic/experiments/pddl_70/
+heuristic/experiments/pddl_70/
+
