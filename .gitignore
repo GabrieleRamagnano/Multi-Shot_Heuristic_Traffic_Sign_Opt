@@ -78,3 +78,7 @@ heuristic/experiments/heu_volume/print1.sh
 heuristic/experiments/heu_volume/print2.sh
 heuristic/experiments/pddl_70/
 
+heuristic/experiments/read_results4.sh
+heuristic/experiments/read_results15.sh
+heuristic/experiments/read_results21.sh
+heuristic/experiments/read_results23.sh
