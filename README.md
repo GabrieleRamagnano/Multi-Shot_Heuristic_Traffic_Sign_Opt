@@ -30,7 +30,7 @@ It is possible to run these type of experiments using
 ```
 bash ./run_experiment.sh
 ```
-In `./heuristic/experiments/how_to_run.md` we show an example of execution.
+See `./heuristic/experiments/how_to_run.md` for an example of execution.
 
 ### Heuristic Bound Experiment (with PDDL+) 
 The scripts to run these experiments are in the subdirectories `./pddl_cafe`,`./pddl_combo`,`./pddl_minus` located in `./heuristic/experiments/`. 
