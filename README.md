@@ -48,9 +48,3 @@ Result_experiments/
 ```
 Run clingo-dl encoding
 ```
-clingo-dl instance_fixed.lp enc_clingodl.lp ./Test/p01[count=350].lp --const horizon=900 --config=crafty --heuristic=Domain [--minimize-variable="counter(900,[link])"]
-```
-Run asp encoding
-```
-clingo instance_fixed.lp enc_asp.lp ./Test/p01[count=350].lp --const horizon=900 --config=crafty 
-```
