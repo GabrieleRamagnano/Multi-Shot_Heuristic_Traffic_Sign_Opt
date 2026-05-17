@@ -24,27 +24,31 @@ clingcon instance_fixed.lp enc_clingcon.lp ./heu_hphase ./Test/p01[count=350].lp
 Note: 1000000 stands for 10.00000
 
 ## Run experiments 
-### Task 1 [Remove optimisation statements from encoding]
+
+### Heuristic Experiment (without PDDL+) 
+It is possible to run these type of experiments using
 ```
-task1_run_clingcon_with_bounds.sh 
-task1_run_enhsp.sh [Directory]
-task1_run_pps.sh [Directory]
+bash ./run_experiment.sh
 ```
-### Task 2
-```
-task2_run_clingcon.sh [Directory]
-task2_run_enhsp.sh [Directory]
-task2_run_pps.sh [Directory]
-```
-### Combine PDDL+ and Clingcon
+In `./heuristic/experiments/how_to_run.md` we show an example of execution.
+
+### Heuristic Bound Experiment (with PDDL+) 
+The scripts to run these experiments are in the subdirectories `./pddl_cafe`,`./pddl_combo`,`./pddl_minus` located in `./heuristic/experiments/`. 
+
 ```
 combine_pddl_clingcon.sh [Directory]
 ```
 
+```
+combine_pddl_hlink.sh [Directory]
+```
+
 ### Extra 
-The experiment results are in the corresponding subdirectory of 
+The **aggregated conuter** results of each experiment are in their corresponding subdirectory
 ```
-Result_experiments/
+./heuristic/experiments/[name-test]/result
 ```
-Run clingo-dl encoding
+The comparison of **improvements** of some results can be found in the corresponding subdirectory
+```
+./heuristic/experiments/Improvement_results
 ```
