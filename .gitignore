@@ -15,6 +15,6 @@ pddl_encoding.pddl
 full_experiment_results_clingcon.csv
 multi-shot
 .gitignore
-./heuristic/experiments/info.sh
-./heuristic/experiments/clean0.sh
-./heuristic/experiments/create_file.sh
+heuristic/experiments/info.sh
+heuristic/experiments/clean0.sh
+heuristic/experiments/create_file.sh
