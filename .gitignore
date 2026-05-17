@@ -69,3 +69,11 @@ heuristic/experiments/pddl_minus/sip/inst0.sh
 heuristic/experiments/pddl_minus/inst0.py
 heuristic/experiments/pddl_minus/inst1.py
 heuristic/experiments/pddl_minus/inst6.py
+heuristic/experiments/pddl_70/compare.sh
+heuristic/experiments/pddl_70/inst0.sh
+heuristic/experiments/pddl_70/inst0.py
+heuristic/experiments/pddl_70/inst1.py
+heuristic/experiments/pddl_70/inst6.py
+heuristic/experiments/heu_volume/print0.sh
+heuristic/experiments/heu_volume/print1.sh
+heuristic/experiments/heu_volume/print2.sh
