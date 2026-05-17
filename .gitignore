@@ -27,7 +27,6 @@ heuristic/experiments/theory_delta/inst1.py
 heuristic/experiments/theory_delta/inst3.py
 heuristic/experiments/inst14.sh
 run.sh
-
 heuristic/experiments/heu_volume/compare.sh
 heuristic/experiments/heu_volume/list0.sh
 heuristic/experiments/heu_volume/inst0.sh
