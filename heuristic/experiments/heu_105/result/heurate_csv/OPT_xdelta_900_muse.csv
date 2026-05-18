@@ -1,0 +1,12 @@
+Encoding,Horizon,Problem,counter wrac1_y_wrbc1,counter wrbc1_b_wrcc1,counter wrcc1_x_wrdc1,counter wrdc1_b_wrec1,counter wrec1_y_wrfc1,Total
+clingcon,900,./heu_105/result/Instancesv2_round/random/fixlen4/muse/p03[count=350]_OPT_xdelta_900.txt,16621100,10157900,14442300,,,41221300
+clingcon,900,./heu_105/result/Instancesv2_round/random/fixlen4/muse/p04[count=350]_OPT_xdelta_900.txt,18993300,12753700,17010800,27795100,,76552900
+clingcon,900,./heu_105/result/Instancesv2_round/random/fixlen4/muse/p05[count=350]_OPT_xdelta_900.txt,16621100,10157900,14442300,26974100,31111100,99306500
+clingcon,900,./heu_105/result/Instancesv2_round/random/fixlen4/muse/p02[count=350]_OPT_xdelta_900.txt,16621100,10157900,,,,26779000
+clingcon,900,./heu_105/result/Instancesv2_round/random/fixlen4/muse/p01[count=350]_OPT_xdelta_900.txt,18993300,,,,,18993300
+clingcon,900,./heu_105/result/Instancesv2_round/sipp/fixlen4/muse/p05[count=350]_OPT_xdelta_900.txt,24474200,17189500,21634100,35376800,37667800,136342400
+clingcon,900,./heu_105/result/Instancesv2_round/sipp/fixlen4/muse/p02[count=350]_OPT_xdelta_900.txt,24710200,17390300,,,,42100500
+clingcon,900,./heu_105/result/Instancesv2_round/sipp/fixlen4/muse/p01[count=350]_OPT_xdelta_900.txt,24710200,,,,,24710200
+clingcon,900,./heu_105/result/Instancesv2_round/sippv2/fixlen4/muse/p05[count=350]_OPT_xdelta_900.txt,24205700,16643600,20886900,34637900,38739000,135113100
+clingcon,900,./heu_105/result/Instancesv2_round/sippv2/fixlen4/muse/p02[count=350]_OPT_xdelta_900.txt,24205700,16643600,,,,40849300
+clingcon,900,./heu_105/result/Instancesv2_round/sippv2/fixlen4/muse/p01[count=350]_OPT_xdelta_900.txt,24205700,,,,,24205700

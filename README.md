@@ -23,6 +23,15 @@ clingcon instance_fixed.lp enc_clingcon.lp ./heu_hphase ./Test/p01[count=350].lp
 ```
 Note: 1000000 stands for 10.00000
 
+### Run multi-shot
+```
+python multishot/multi-shot.py <enc_file> <instance_files...> [--horizon HORIZON] [--bound BOUND] [--lim LIM] [--shot_duration SHOT_DURATION] [--models_per_shot MODELS_PER_SHOT] [--stats]
+```
+Example
+```
+python multishot/multi-shot.py multishot/enc_multishot.lp ./Test/p01[count=350].lp multishot/instance_fixed.lp --horizon 900 --shot_duration 100
+```
+
 ## Run experiments 
 
 ### Heuristic Experiment (without PDDL+) 

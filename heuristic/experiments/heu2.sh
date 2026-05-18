@@ -51,7 +51,7 @@ function execute
 {
     set_scenario
     run_test 
-    run_csv    
+    #run_csv    
 }
 
 shopt -s lastpipe

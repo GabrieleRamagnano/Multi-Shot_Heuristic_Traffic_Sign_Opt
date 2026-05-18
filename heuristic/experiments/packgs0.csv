@@ -50,4 +50,6 @@ OPTCAFE_DHXplink,heu_105,opt-dhxplink,./heu0.sh,./heu2.sh
 OPTFIRE_DHXplink,heu_105,optpddl-dhxplink,./heu0.sh,./heu2.sh
 OPT_XDeltime105,heu_105,OPT_xdeltime,./heu0.sh,./heu2.sh
 OPT_XDeltimeRnd,heu_105,OPT_xdeltime,./heu0.sh,./heu2.sh
+OPT_XDelta105,heu_105,OPT_xdelta,./heu0.sh,./heu2.sh
+OPT_XDeltaRnd,heu_105,OPT_xdelta,./heu0.sh,./heu2.sh
 PDDL_TEST,pddl_105,asp_bound,./pddl0.sh,./pddl1.sh
