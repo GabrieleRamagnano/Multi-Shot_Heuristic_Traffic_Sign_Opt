@@ -157,7 +157,7 @@ function resume
     echo -e "\r${time_slot_s[@]:+time::}""${time_slot_s[@]:-time-empty}"
     echo -e "\r${day_s[@]:+day::}""${day_s[@]:-day-empty}"    
     echo -e "\r${muse:+muse::}""${muse:-muse-empty}"
-    echo -e "\r${fixed_test_s[@]:+fixed_test::}""${fixed_test_s[@]:-fixed_test-empty}"
+    #echo -e "\r${fixed_test_s[@]:+fixed_test::}""${fixed_test_s[@]:-fixed_test-empty}"
     echo -e "\r${instance_s[@]:+instance::}""${instance_s[@]:-instance-empty}"
 }
 

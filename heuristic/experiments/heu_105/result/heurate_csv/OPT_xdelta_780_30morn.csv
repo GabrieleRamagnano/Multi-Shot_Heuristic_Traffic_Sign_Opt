@@ -1,0 +1,14 @@
+Encoding,Horizon,Problem,counter wrac1_y_wrbc1,counter wrbc1_b_wrcc1,counter wrcc1_x_wrdc1,counter wrdc1_b_wrec1,counter wrec1_y_wrfc1,Total
+clingcon,780,./heu_105/result/Instancesv2_round/random/fixlen4/30morn/p03[count=350]_OPT_xdelta_780.txt,9012120,7315200,7984020,,,24311340
+clingcon,780,./heu_105/result/Instancesv2_round/random/fixlen4/30morn/p04[count=350]_OPT_xdelta_780.txt,9012120,7315200,7984020,7421700,,31733040
+clingcon,780,./heu_105/result/Instancesv2_round/random/fixlen4/30morn/p05[count=350]_OPT_xdelta_780.txt,9012120,7315200,8341620,7685300,8016300,40370540
+clingcon,780,./heu_105/result/Instancesv2_round/random/fixlen4/30morn/p02[count=350]_OPT_xdelta_780.txt,9012120,7315200,,,,16327320
+clingcon,780,./heu_105/result/Instancesv2_round/random/fixlen4/30morn/p01[count=350]_OPT_xdelta_780.txt,9012120,,,,,9012120
+clingcon,780,./heu_105/result/Instancesv2_round/sipp/fixlen4/30morn/p03[count=350]_OPT_xdelta_780.txt,8677720,7142400,7965680,,,23785800
+clingcon,780,./heu_105/result/Instancesv2_round/sipp/fixlen4/30morn/p05[count=350]_OPT_xdelta_780.txt,8677720,7142400,7965680,7444100,7769100,38999000
+clingcon,780,./heu_105/result/Instancesv2_round/sipp/fixlen4/30morn/p02[count=350]_OPT_xdelta_780.txt,8677720,7142400,,,,15820120
+clingcon,780,./heu_105/result/Instancesv2_round/sipp/fixlen4/30morn/p01[count=350]_OPT_xdelta_780.txt,8677720,,,,,8677720
+clingcon,780,./heu_105/result/Instancesv2_round/sippv2/fixlen4/30morn/p03[count=350]_OPT_xdelta_780.txt,9020080,7430400,8367980,,,24818460
+clingcon,780,./heu_105/result/Instancesv2_round/sippv2/fixlen4/30morn/p05[count=350]_OPT_xdelta_780.txt,9020080,7430400,8367980,7788900,8098700,40706060
+clingcon,780,./heu_105/result/Instancesv2_round/sippv2/fixlen4/30morn/p02[count=350]_OPT_xdelta_780.txt,9020080,7430400,,,,16450480
+clingcon,780,./heu_105/result/Instancesv2_round/sippv2/fixlen4/30morn/p01[count=350]_OPT_xdelta_780.txt,9020080,,,,,9020080
