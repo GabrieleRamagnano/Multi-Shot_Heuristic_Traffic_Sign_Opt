@@ -78,6 +78,14 @@ combine_pddl_clingcon.sh [Directory]
 ```
 combine_pddl_hlink.sh [Directory]
 ```
+To calculate the improvement run
+```
+bash ./compute_improvement.sh <reference-dir> <test-dir>  <reference-csv> <test-csv> <reference-label> <test-label> <reference-encoding> <test-encoding>
+```
+Example
+```
+bash ./compute_improvement.sh ./experiments/heu_105 ./experiments/heu_105 ./test/result_cafe_dot.csv  ./test/result_OPT_hlink_dot.csv cafe OPT_hplink cafe clingcon
+```
 
 #### Results
 The **aggregated conuter** results of each experiment are in their corresponding subdirectory
