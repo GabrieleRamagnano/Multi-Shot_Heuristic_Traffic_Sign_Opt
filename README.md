@@ -55,9 +55,9 @@ combine_pddl_hlink.sh [Directory]
 ### Extra 
 The **aggregated conuter** results of each experiment are in their corresponding subdirectory
 ```
-./heuristic/experiments/[name-test]/result
+./heuristic/experiments/[name-test]/result/
 ```
 The comparison of **improvements** of some results can be found in the corresponding subdirectory
 ```
-./heuristic/experiments/Improvement_results
+./heuristic/experiments/Improvement_results/
 ```

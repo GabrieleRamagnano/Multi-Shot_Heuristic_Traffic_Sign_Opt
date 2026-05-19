@@ -9,13 +9,13 @@ Name::Delta_#sum
 Name::High_rate
  ./model/constants.lp ./model/instance_fixed.lp ./model/enc_conf.lp ./model/heu/conf_value.lp--High_rate
 Name::Change_in/out
- ./model/constants.lp ./model/dates/activation.lp ./model/dates/capacity.lp ./model/dates/init_occ.lp ./model/dates/phase_limit.lp ./model/dates/turnrate.lp ./model/enc_conf.lp ./model/heu/conf_value.lp ./model/instance_fixed.lp--Change_in/out
+ ./model/constants.lp ./model/data/activation.lp ./model/data/capacity.lp ./model/data/init_occ.lp ./model/data/phase_limit.lp ./model/data/turnrate.lp ./model/enc_conf.lp ./model/heu/conf_value.lp ./model/instance_fixed.lp--Change_in/out
 Name::Heu_Test1
  ./model/instance_fixed.lp ./model/enc_clingcon.lp ./model/heu/conf_value.lp--Heu_Test1
 Name::QuickRate
  ./model/instance_fixed.lp ./model/enc_clingcon.lp ./model/heu/min_volume.lp--QuickRate
 Name::PrintQuick
- ./model/constants.lp ./model/dates/activation.lp ./model/dates/capacity.lp ./model/dates/init_occ.lp ./model/dates/phase_limit.lp ./model/dates/turnrate.lp ./model/enc_conf.lp ./model/heu/min_volume.lp ./model/instance_fixed.lp--PrintQuick
+ ./model/constants.lp ./model/data/activation.lp ./model/data/capacity.lp ./model/data/init_occ.lp ./model/data/phase_limit.lp ./model/data/turnrate.lp ./model/enc_conf.lp ./model/heu/min_volume.lp ./model/instance_fixed.lp--PrintQuick
 Name::QuickPrint2
  ./model/constants.lp ./model/enc_conf.lp ./model/heu/min_volume.lp ./model/instance_fixed.lp--QuickPrint2
 Name::LongRate
