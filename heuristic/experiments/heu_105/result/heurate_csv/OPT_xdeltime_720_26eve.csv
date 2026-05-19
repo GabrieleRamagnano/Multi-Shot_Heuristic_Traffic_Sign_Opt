@@ -1,15 +1,16 @@
 Encoding,Horizon,Problem,counter wrac1_y_wrbc1,counter wrbc1_b_wrcc1,counter wrcc1_x_wrdc1,counter wrdc1_b_wrec1,counter wrec1_y_wrfc1,Total
-clingcon,720,./heu_105/result/Instancesv2_round/random/fixlen4/26eve/p04[count=350]_OPT_xdeltime_720.txt,18308940,11635200,12594900,10991900,,53530940
-clingcon,720,./heu_105/result/Instancesv2_round/random/fixlen4/26eve/p05[count=350]_OPT_xdeltime_720.txt,18308940,11635200,12594900,10991900,14819700,68350640
-clingcon,720,./heu_105/result/Instancesv2_round/random/fixlen4/26eve/p02[count=350]_OPT_xdeltime_720.txt,17797040,11635200,,,,29432240
-clingcon,720,./heu_105/result/Instancesv2_round/random/fixlen4/26eve/p01[count=350]_OPT_xdeltime_720.txt,18308940,,,,,18308940
+clingcon,720,./heu_105/result/Instancesv2_round/random/fixlen4/26eve/p03[count=350]_OPT_xdeltime_720.txt,16596140,9964800,10707180,,,37268120
+clingcon,720,./heu_105/result/Instancesv2_round/random/fixlen4/26eve/p04[count=350]_OPT_xdeltime_720.txt,16596140,9964800,10707180,10991900,,48260020
+clingcon,720,./heu_105/result/Instancesv2_round/random/fixlen4/26eve/p05[count=350]_OPT_xdeltime_720.txt,17173180,10483200,11198880,10991900,14819700,64666860
+clingcon,720,./heu_105/result/Instancesv2_round/random/fixlen4/26eve/p02[count=350]_OPT_xdeltime_720.txt,17665840,11001600,,,,28667440
+clingcon,720,./heu_105/result/Instancesv2_round/random/fixlen4/26eve/p01[count=350]_OPT_xdeltime_720.txt,17797040,,,,,17797040
 clingcon,720,./heu_105/result/Instancesv2_round/sipp/fixlen4/26eve/p03[count=350]_OPT_xdeltime_720.txt,18936420,14860800,14863160,,,48660380
-clingcon,720,./heu_105/result/Instancesv2_round/sipp/fixlen4/26eve/p04[count=350]_OPT_xdeltime_720.txt,28820,0,44700,65900,,139420
+clingcon,720,./heu_105/result/Instancesv2_round/sipp/fixlen4/26eve/p04[count=350]_OPT_xdeltime_720.txt,22349800,14284800,14766860,15243500,,66644960
 clingcon,720,./heu_105/result/Instancesv2_round/sipp/fixlen4/26eve/p05[count=350]_OPT_xdeltime_720.txt,22349800,14284800,14766860,15243500,19022100,85667060
-clingcon,720,./heu_105/result/Instancesv2_round/sipp/fixlen4/26eve/p02[count=350]_OPT_xdeltime_720.txt,22349800,14284800,,,,36634600
-clingcon,720,./heu_105/result/Instancesv2_round/sipp/fixlen4/26eve/p01[count=350]_OPT_xdeltime_720.txt,22349800,,,,,22349800
+clingcon,720,./heu_105/result/Instancesv2_round/sipp/fixlen4/26eve/p02[count=350]_OPT_xdeltime_720.txt,22218600,14227200,,,,36445800
+clingcon,720,./heu_105/result/Instancesv2_round/sipp/fixlen4/26eve/p01[count=350]_OPT_xdeltime_720.txt,22218600,,,,,22218600
 clingcon,720,./heu_105/result/Instancesv2_round/sippv2/fixlen4/26eve/p03[count=350]_OPT_xdeltime_720.txt,18870820,14860800,14863160,,,48594780
-clingcon,720,./heu_105/result/Instancesv2_round/sippv2/fixlen4/26eve/p04[count=350]_OPT_xdeltime_720.txt,28820,0,44700,65900,,139420
-clingcon,720,./heu_105/result/Instancesv2_round/sippv2/fixlen4/26eve/p05[count=350]_OPT_xdeltime_720.txt,22187400,14227200,14774880,15221100,19022100,85432680
+clingcon,720,./heu_105/result/Instancesv2_round/sippv2/fixlen4/26eve/p04[count=350]_OPT_xdeltime_720.txt,22187400,14227200,14703820,15155200,,66273620
+clingcon,720,./heu_105/result/Instancesv2_round/sippv2/fixlen4/26eve/p05[count=350]_OPT_xdeltime_720.txt,22187400,14227200,14703820,15155200,18939700,85213320
 clingcon,720,./heu_105/result/Instancesv2_round/sippv2/fixlen4/26eve/p02[count=350]_OPT_xdeltime_720.txt,22187400,14227200,,,,36414600
 clingcon,720,./heu_105/result/Instancesv2_round/sippv2/fixlen4/26eve/p01[count=350]_OPT_xdeltime_720.txt,22187400,,,,,22187400
