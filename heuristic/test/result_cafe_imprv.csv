@@ -1,3 +1,4 @@
+Encoding,Horizon,Problem,counter wrac1_y_wrbc1,counter wrbc1_b_wrcc1,counter wrcc1_x_wrdc1,counter wrdc1_b_wrec1,counter wrec1_y_wrfc1,Total,Diff
 cafe,600,./heu_105/result/Instancesv2_round/random/fixlen4/26morn/p01[count=350],151.8490011394024,,,,,151.8490011394024,.0000011394024
 cafe,600,./heu_105/result/Instancesv2_round/sipp/fixlen4/26morn/p01[count=350],161.02980133891106,,,,,161.02980133891106,.00000133891106
 cafe,600,./heu_105/result/Instancesv2_round/sippv2/fixlen4/26morn/p01[count=350],162.0536013841629,,,,,162.0536013841629,.0000013841629

@@ -36,7 +36,7 @@ function is_there
  
     echo "${root_}/${inst_:2}"
     if  bash "${utility}" search3 "${root_},${root_}/${inst_:2}"; then
-        _asp_output="${root_}/${inst_:2}" ;echo "${_asp_output}"
+        _asp_output="${root_}/${inst_:2}" #;echo "${_asp_output}"
         return 0
     else
         return 1
@@ -67,7 +67,7 @@ function unknown
             tail -n +2 $task | 
             while IFS=',' read -r HORIZON PROBLEM MIN; do
                   if [[ "$PROBLEM" == *"_round"* ]]; then
-                     problem="./Instancesv2_round/${sufx}${PROBLEM:len}" ;echo "${root_}/${home_:2}/${problem:2}_${label}_$HORIZON.txt"
+                     problem="./Instancesv2_round/${sufx}${PROBLEM:len}" #;echo "${root_}/${home_:2}/${problem:2}_${label}_$HORIZON.txt"
                      is_there asp_output "${home_}/${problem:2}_${label}_$HORIZON.txt" &&
                      tail -n +1 "${asp_output}" | 
                      while read -r line; do    
