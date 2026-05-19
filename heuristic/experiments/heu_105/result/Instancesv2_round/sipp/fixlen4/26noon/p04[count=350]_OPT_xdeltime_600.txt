@@ -1,16 +1,15 @@
 clingcon version 5.2.1
 Reading from .../sipp/fixlen4/26noon/p04[count=350].lp ...
 Solving...
-Answer: 1 (Time: 23.288s)
-
+Answer: 2 (Time: 250.797s)
+sol(338,inter(wrdc1,4),conf_wrdc1_1,conf_wrdc1_2) sol(362,inter(wrcc1,6),conf_wrcc1_1,conf_wrcc1_6) sol(523,inter(wrbc1,5),conf_wrbc1_1,conf_wrbc1_5)
 Assignment:
-counter(600,link(wrac1,y,wrbc1))=65600 counter(600,link(wrbc1,b,wrcc1))=57600 counter(600,link(wrcc1,x,wrdc1))=0 counter(600,link(wrdc1,b,wrec1))=0
-Optimization: -123200
-OPTIMUM FOUND
+counter(600,link(wrac1,y,wrbc1))=19780500 counter(600,link(wrbc1,b,wrcc1))=12499200 counter(600,link(wrcc1,x,wrdc1))=12084920 counter(600,link(wrdc1,b,wrec1))=12796500
+Cost: -57161120
+SATISFIABLE
 
-Models       : 1
-  Optimum    : yes
-Optimization : -123200
+TIME LIMIT   : 1
+Models       : 2+
 Calls        : 1
-Time         : 23.355s (Solving: 17.53s 1st Model: 17.45s Unsat: 0.08s)
-CPU Time     : 14.187s
+Time         : 603.634s (Solving: 561.69s 1st Model: 130.04s Unsat: 0.00s)
+CPU Time     : 102.890s

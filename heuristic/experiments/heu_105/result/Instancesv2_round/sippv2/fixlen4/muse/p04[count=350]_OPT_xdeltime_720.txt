@@ -1,16 +1,15 @@
 clingcon version 5.2.1
 Reading from .../sippv2/fixlen4/muse/p04[count=350].lp ...
 Solving...
-Answer: 1 (Time: 25.265s)
-
+Answer: 2 (Time: 228.148s)
+sol(298,inter(wrec1,4),conf_wrec1_1,conf_wrec1_4) sol(338,inter(wrac1,4),conf_wrac1_1,conf_wrac1_6) sol(392,inter(wrdc1,4),conf_wrdc1_1,conf_wrdc1_5) sol(658,inter(wrcc1,6),conf_wrcc1_1,conf_wrcc1_6) sol(674,inter(wrec1,4),conf_wrec1_4,conf_wrec1_3) sol(681,inter(wrfc1,3),conf_wrfc1_1,conf_wrfc1_5) sol(702,inter(wrac1,4),conf_wrac1_6,conf_wrac1_1)
 Assignment:
-counter(720,link(wrac1,y,wrbc1))=64500 counter(720,link(wrbc1,b,wrcc1))=61300 counter(720,link(wrcc1,x,wrdc1))=0 counter(720,link(wrdc1,b,wrec1))=82100
-Optimization: -207900
-OPTIMUM FOUND
+counter(720,link(wrac1,y,wrbc1))=20116700 counter(720,link(wrbc1,b,wrcc1))=13663100 counter(720,link(wrcc1,x,wrdc1))=16634600 counter(720,link(wrdc1,b,wrec1))=28228500
+Cost: -78642900
+SATISFIABLE
 
-Models       : 1
-  Optimum    : yes
-Optimization : -207900
+TIME LIMIT   : 1
+Models       : 2+
 Calls        : 1
-Time         : 25.393s (Solving: 16.37s 1st Model: 16.21s Unsat: 0.15s)
-CPU Time     : 20.062s
+Time         : 602.991s (Solving: 561.77s 1st Model: 47.26s Unsat: 0.00s)
+CPU Time     : 103.196s

@@ -50,7 +50,7 @@ function run_test
 function execute
 {
     set_scenario
-    run_test 
+    run_test & 
     #run_csv    
 }
 

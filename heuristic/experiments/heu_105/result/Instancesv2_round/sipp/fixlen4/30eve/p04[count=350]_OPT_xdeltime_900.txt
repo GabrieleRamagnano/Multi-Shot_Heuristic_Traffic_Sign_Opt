@@ -1,16 +1,15 @@
 clingcon version 5.2.1
 Reading from ...d/sipp/fixlen4/30eve/p04[count=350].lp ...
 Solving...
-Answer: 1 (Time: 24.678s)
-
+Answer: 1 (Time: 298.352s)
+sol(300,inter(wrcc1,6),conf_wrcc1_1,conf_wrcc1_5) sol(357,inter(wrbc1,5),conf_wrbc1_1,conf_wrbc1_2) sol(704,inter(wrec1,4),conf_wrec1_1,conf_wrec1_3) sol(723,inter(wrac1,4),conf_wrac1_1,conf_wrac1_2) sol(784,inter(wrfc1,3),conf_wrfc1_1,conf_wrfc1_5) sol(791,inter(wrdc1,4),conf_wrdc1_1,conf_wrdc1_4) sol(888,inter(wrcc1,6),conf_wrcc1_5,conf_wrcc1_6) sol(897,inter(wrbc1,5),conf_wrbc1_2,conf_wrbc1_1)
 Assignment:
-counter(900,link(wrac1,y,wrbc1))=65600 counter(900,link(wrbc1,b,wrcc1))=0 counter(900,link(wrcc1,x,wrdc1))=0 counter(900,link(wrdc1,b,wrec1))=0
-Optimization: -65600
-OPTIMUM FOUND
+counter(900,link(wrac1,y,wrbc1))=19998540 counter(900,link(wrbc1,b,wrcc1))=17049600 counter(900,link(wrcc1,x,wrdc1))=17965800 counter(900,link(wrdc1,b,wrec1))=17264800
+Cost: -72278740
+SATISFIABLE
 
-Models       : 1
-  Optimum    : yes
-Optimization : -65600
+TIME LIMIT   : 1
+Models       : 1+
 Calls        : 1
-Time         : 24.809s (Solving: 16.65s 1st Model: 16.51s Unsat: 0.15s)
-CPU Time     : 24.805s
+Time         : 603.231s (Solving: 533.79s 1st Model: 228.67s Unsat: 0.00s)
+CPU Time     : 102.240s

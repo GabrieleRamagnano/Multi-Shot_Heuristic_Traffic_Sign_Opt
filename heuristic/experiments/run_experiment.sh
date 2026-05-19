@@ -516,7 +516,7 @@ function additional_export
                              set_instance)
                              #-hull
                              exp_view instv2_s "${messg}" && 
-                             preset "-round or -random or -sipp or -sippv2 or -parallel or -parallel_sipp105" "${instv2_s[0]} or ${instv2_s[2]} or ${instv2_s[3]} or ${instv2_s[4]} or (-round and -sippv2) or (-random and -sippv2 and sipp)" set_instancev2
+                             preset "-round or -random or -sipp or -sippv2 or -parallel or -parallel_sipp105" "${instv2_s[0]} or ${instv2_s[2]} or ${instv2_s[3]} or ${instv2_s[4]} or (-round and -sippv2) or (-sippv2 and sipp)" set_instancev2
                              additional_export;;
                              set_task) 
                              exp_view task_s "${messg}" &&
