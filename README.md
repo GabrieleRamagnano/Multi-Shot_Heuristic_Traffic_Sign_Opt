@@ -30,7 +30,7 @@ python multishot/multi-shot.py multishot/enc_multishot.lp ./Test/p01[count=350].
 
 ### Run Heuristic Domain
 ```
-clingcon instance_fixed.lp enc_clingcon.lp [Heuristic_encoding] [ASP_instance] --const horizon=[horizon] --const bound=[cars_bound] --config=crafty --heuristic=Domain
+clingcon instance_fixed.lp enc_clingcon.lp <Heuristic_encoding> <ASP_instance> --const horizon=[horizon] --const bound=[PCU_bound] --config=crafty --heuristic=Domain
 ```
 Example
 ```
@@ -46,7 +46,7 @@ bash ./run_experiment.sh
 See `./heuristic/experiments/how_to_run.md` for an example of execution.
 To apply the conversion from 1000000 to 10.00000:
 ```
-python ./dot_conversion.py [csv-file] [experiment-label]
+python ./dot_conversion.py <csv-file> <experiment-label>
 ```
 Example
 ```
@@ -54,7 +54,7 @@ python ./dot_conversion.py ./test/result_OPT_clingcon.csv OPT_clingcon
 ```
 To compute the aggregated results for a given time horizon (`key = ""`)
 ```
-python ./aggregate_horizon.py [csv-reference] [csv-test] [name-reference] [name-test] [horizon] [key] [encoding-reference] [encoding-test]
+python ./aggregate_horizon.py <csv-reference> <csv-test> <name-reference> <name-test> <horizon> <key> <encoding-reference> <encoding-test>
 ```
 
 Example
